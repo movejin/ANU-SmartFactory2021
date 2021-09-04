@@ -37,14 +37,3 @@ def servo_main( btn ):
         #GPIO.cleanup()
         #print("GPIO cleanup...!!!")
         
-"""
-try:
-    print("서보 함수를 호출 했습니다")
-    print("왼쪽: 1 \n오른쪽: 2 \n다른 함수 호출:3 ")
-    servo_main()  
-              
-
-finally:
-    GPIO.cleanup()
-    print("GPIO cleanup...!!!")
-"""
