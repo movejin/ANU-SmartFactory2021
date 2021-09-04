@@ -6,10 +6,13 @@ DIGIT=23
 GPIO.setup(DIGIT, GPIO.IN)
 
 
+def read_sensor() :
+    digit_val=GPIO.input(DIGIT)
+    return digit_val
 
+"""
 def trct_main():
-    print("센서 함수를 호출했습니다.")
-    print("사용하시겠습니까: 1 \n다른 센서 사용: 2")
+    
     while True:
         
         num2 = 0
@@ -23,9 +26,13 @@ def trct_main():
         elif num2=='2':
             break
         
+
 try:
+    print("센서 함수를 호출했습니다.")
+    print("사용하시겠습니까: 1 \n다른 센서 사용: 2")
     trct_main()
 
 finally:
     GPIO.cleanup()
+"""
     
